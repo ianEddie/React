@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.mainContainer {
+  /* background-color: grey; */
+  padding: 0.5em;
+  /* --- */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+}
+.container-1 {
+  background-color: azure;
+  padding: 5px;
+  width: 8%;
+  border-radius: 3em;
+  border: #282c34 solid 2px;
+  /* --- */
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+.lessButton,
+.moreButton {
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+.addButton {
+  background-color: azure;
+  border-radius: 3em;
+  border: #282c34 solid 2px;
+  padding: 0.4em;
+}
