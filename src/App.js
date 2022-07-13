@@ -1,12 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ItemListContainer from "./componets/ItemListContainer";
 import Navbar from "./componets/Navbar";
 import ItemCount from "./componets/ItemCount";
-
+import ItemListContainer from "./Containers/ItemListContainer";
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid appContainer">
       <Navbar />
       <ItemListContainer />
       <ItemCount />
