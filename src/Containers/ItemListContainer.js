@@ -20,7 +20,7 @@ let getData = (time) => {
     });
 }
 
-getData(0)
+getData(2000)
     .then(datos => {setData(datos)})
     .catch(err => console.log(err))
 
